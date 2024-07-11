@@ -1,0 +1,159 @@
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9dcd6;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1%;
+    background-color: #35415E;
+    color: #fff
+}
+
+h1{
+    font-size: 200%;
+    color: #0c1318;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+/* About Me, Work, Contact Me, Resume in header */
+header{
+    padding-top: 15px;
+    float: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+}
+
+.header{
+    position: relative;
+    right: 10px;
+    padding: 5px;
+    text-decoration: underline #5bf8fe;
+}
+
+a{
+    color: #58f8fe;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: underline #5bf8fe;
+    text-shadow: none;
+
+}
+.construction{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0c1318;
+    position: relative;
+    right: 10px;
+    width: 50%;
+}
+
+/* About Me section*/
+aside{
+    font-size: 200%;
+    color: #0c1318;
+    padding: 20px;
+    width: 25%;
+}
+.vl{
+    border-right: 4px #0c1318;
+}
+.aboutme{
+    padding: 15px;
+    position: relative;
+    top: 40px;
+    float: right;
+    width: 65%;
+    height: 100%;
+}
+
+/* Work section */
+.mod1{
+    float: right;
+    width: 68%;
+    border-style: solid;
+    object-fit: scale-down;
+    position: relative;
+    bottom: 100px;
+}
+
+.imgcard{
+    position: relative;
+}
+
+/* Contact Me section*/
+.contactme{
+    position: relative;
+    display: inline;
+    width: 66%;
+    top: 140px;
+    justify content: center;
+}
+.a2{
+    align-self:center;
+    color: #0c1318;
+    text-decoration: underline #0c1318;
+}
+.contact{
+    position: relative;
+    font size: 50px;
+}
+
+/* streamline HTML visual output for different screen widths */
+@media screen and (max-width: 787px){
+    h2{
+        display: block;
+    }
+}
+@media screen and (max-width: 715px){
+    aside{
+        display: inline;
+        width: 100%;
+    }
+    .aboutme{
+        position: relative;
+        width: 100%;
+    }
+    .mod1{
+        position: relative;
+        margin-left: auto;
+        width: 100%;
+        top: 1%;
+
+    }
+    .contactme{
+        position: relative;
+        width: 100%;
+    }
+}
